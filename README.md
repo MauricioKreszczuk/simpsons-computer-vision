@@ -58,6 +58,6 @@ Se diseñó una arquitectura funcional capaz de resolver dos tareas en simultán
 
 ---
 
-## 🎓 Créditos e Informe Técnico
+## Créditos e Informe 
 Proyecto desarrollado por **Oscar Mauricio Kreszczuk** para la Licenciatura en Ciencia de Datos, UNSAM[cite: 1, 2]. 
 El informe teórico y metodológico completo con las conclusiones detalladas se encuentra adjunto en este repositorio como `Informe_vision.pdf`[cite: 1].
