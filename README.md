@@ -4,7 +4,7 @@ Este repositorio contiene el desarrollo completo del Trabajo Práctico Integral 
 
 ---
 
-## 📊 Dataset y Desafíos Visuales
+## Dataset y Desafíos Visuales
 
 Se utilizó un subconjunto balanceado del **The Simpsons Characters Dataset** (Alex Attia, Kaggle), bajo licencia CC BY-NC-SA 4.0[cite: 1, 2]. 
 
@@ -15,7 +15,7 @@ Se utilizó un subconjunto balanceado del **The Simpsons Characters Dataset** (A
 
 ---
 
-## 🛠️ Pipeline de Desarrollo
+## Pipeline de Desarrollo
 
 ### 1. Preprocesamiento y Balanceo de Datos
 * **Mitigación del Sesgo:** El dataset original presentaba un severo desbalanceo (clases con 2000 imágenes y otras con 400)[cite: 2]. Se seleccionaron 6 clases principales (`Homer`, `Bart`, `Lisa`, `Marge`, `Ned Flanders`, `Montgomery Burns`) y se limitó el volumen a **300 imágenes por personaje**, consolidando un subset perfectamente balanceado de **1800 imágenes**[cite: 1, 2].
@@ -30,7 +30,7 @@ Antes del modelado por Deep Learning, se evaluaron técnicas clásicas de PDI[ci
 
 ---
 
-## 🧠 Arquitecturas de Modelado y Experimentos
+## Arquitecturas de Modelado y Experimentos
 
 ### Experimento 1: Red Totalmente Conectada (ANN)
 Se aplanaron las imágenes a vectores unidimensionales[cite: 2]. 
@@ -51,7 +51,7 @@ Se diseñó una arquitectura funcional capaz de resolver dos tareas en simultán
 
 ---
 
-## 📈 Resultados y Métricas Finales
+## Resultados y Métricas Finales
 
 * **Localización (MSE):** Excelente convergencia, estabilizando el MSE de validación en **0.018**, demostrando alta precisión en el encuadre de los personajes[cite: 2].
 * **Clasificación (Accuracy):** Se estabilizó entre el **73% y 77%** en validación[cite: 2]. La ligera baja respecto al modelo puro se debe a la competencia por los recursos algorítmicos en las capas convolucionales compartidas al optimizar dos tareas a la vez[cite: 2].
